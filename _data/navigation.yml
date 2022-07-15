@@ -2,17 +2,10 @@
 main:
   - title: "About"
     url: "/about/"
-  - title: "categories"
+  - title: "Categories"
     url: "/categories/"
-  - title: "tags"
+  - title: "Tags"
     url: "/tags/"
-  #- title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+sidebar:
+  - title: "어서오세요"
+    url: "/categories/어서오세요"

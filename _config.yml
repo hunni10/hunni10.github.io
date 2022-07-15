@@ -290,6 +290,8 @@ defaults:
       layout: single
       show_date: true
       author_profile: true
+      sidebar:
+        nav: "sidebar"
       read_time: false
       comments: true
       share: true
@@ -303,6 +305,8 @@ defaults:
       layout: single
       show_date: true
       author_profile: true
+      sidebar:
+        nav: "sidebar"
       #read_time: true
       #comments: true
       share: true
