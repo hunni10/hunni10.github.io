@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "블로그 테마 Minimal Mistakes 배우는중"
+title                    : "귀찮으면 Simple is Best"
 title_separator          : "-"
-subtitle                 : "부제목? 이게뭐람"# site tagline that appears below site title in masthead
+subtitle                 : "CSS HTML 모르겠는데요." # site tagline that appears below site title in masthead
 name                     : "hunni10"
 description              : "다들 그러하듯이, 개인적인 공부 올리는 곳. 주로 AI"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "hunni10/hunni10.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "hunni10/hunni10.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "hunni10"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "블로그 초짜"
+  bio              : "블로그 초짜. 프로그래밍은 언제나 배울 것 투성이."
   location         : "인천 송도 (~202302)"
   email            : "hunnino10@gmail.com"
   links:

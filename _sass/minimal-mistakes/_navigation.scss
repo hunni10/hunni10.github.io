@@ -440,9 +440,10 @@
 .nav__list .nav__items {
   margin: 0;
   font-size: 1.25rem;
-  background-color: #F2F2F2;
-  border: 3px #FFEBFF;
-  border-style: dashed;
+  background-color: $sidebar-background-color;
+  border: $sidebar-border-size $sidebar-border-color;
+  border-style: $sidebar-border-style;
+
   a {
     color: inherit;
   }
