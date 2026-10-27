@@ -2,11 +2,15 @@ baseURL = 'https://hunni10.github.io/'
 locale = 'ko-kr'
 title = 'BOTTOM TEXT (not rly)'
 theme = 'book'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 copyright = """
 2026. hunni10 (a.k.a. xaiseung) - <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a><br/>
 Theme: <a href="https://github.com/alex-shpak/hugo-book" target="_blank" rel="noopener noreferrer">Hugo Book</a> - (<a href="https://github.com/alex-shpak/hugo-book/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a>)
 """
-
 # Book configuration
 disablePathToLower = true
 enableGitInfo = true
