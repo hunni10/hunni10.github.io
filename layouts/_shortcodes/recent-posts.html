@@ -1,0 +1,20 @@
+{{- $limit := default 5 (.Get "limit") | int -}}
+{{- $section := default "posts" (.Get "section") -}}
+{{- $sortBy := default "date" (.Get "sort") -}}
+{{- $pages := where site.RegularPages "Section" $section -}}
+{{- if eq $sortBy "lastmod" -}}
+  {{- $pages = $pages.ByLastmod.Reverse -}}
+{{- else -}}
+  {{- $pages = $pages.ByDate.Reverse -}}
+{{- end -}}
+<section class="recent-posts-section">
+<h2 class="recent-posts-title" style="font-size: 2em; margin-bottom: 0.5em;">{{ default "최근 게시글" (.Get "title") }}</h2>
+<ul class="recent-posts">
+  {{- range first $limit $pages }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ partial "docs/title" . }}</a>
+    <small>{{ (cond (eq $sortBy "lastmod") .Lastmod .Date).Format (default "2006-01-02" site.Params.BookDateFormat) }}</small>
+  </li>
+  {{- end }}
+</ul>
+</section>
